@@ -62,7 +62,23 @@ class BrainFreeze(GamePiece):
     def __init__(self):
         super().__init__("Brain Freeze")
 
-
+#initialize and return an array of gamepieces, useful in game mode creation
+def create_game_pieces():
+    return [
+        AdamsApple(),
+        BrokenHeart(),
+        WrenchedAnkle(),
+        ButterfliesInStomach(),
+        SpareRibs(),
+        WaterOnTheKnee(),
+        FunnyBone(),
+        WritersCramp(),
+        CharleyHorse(),
+        AnkleBoneConnectedToTheKneeBone(),
+        WishBone(),
+        BreadBasket(),
+        BrainFreeze()
+    ]
 
     
 

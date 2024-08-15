@@ -24,7 +24,7 @@ import time
 
 
 GamePieceArr = create_game_pieces() #create an array of all the Operation game pieces that inherit from GamePieces
-random.choice(GamePiece).setMotorPower(100) #Randomly select one game piece in the array to plant the "bomb"
+random.choice(GamePieceArr).setMotorPower(100) #Randomly select one game piece in the array to plant the "bomb"
 
 
 

@@ -51,7 +51,7 @@ while True:
 
     if keyboard.is_pressed('space'):
         print("Good job doctor!")
-        del GamePieceArr[choice].motorPower #removes game piece from array to mark as "completed"
+        GamePieceArr.pop(choice) #removes game piece from array to mark as "completed"
     
     if len(GamePieceArr) == 1: #Breaks from loop once you have removed all pieces except for the bomb
         print(f"Congrats doctor you've done it, the bomb was the {GamePieceArr[choice].name}")
